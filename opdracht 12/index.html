@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 12</title>
+</head>
+<body>
+    <div>
+        <p id="Paragraaf">Paragraaf</p>
+        <button onclick="document.getElementById('Paragraaf').innerHTML = 'Jaren'">Paragraaf veranderen</button>
+    </div>
+    
+    <div>
+        <h1 id="Header">Header 1</h1>
+        <button onclick="document.getElementById('Header').style.color = 'red'">Kleur veranderen</button>
+    </div>
+    <div>
+        <h2 class="Header2">Header 2</h2>
+        <button onclick="document.querySelector('.Header2').style.color = 'red'">Kleur veranderen</button>
+    </div>
+    <div>
+        <h5 class="Hearder5">Header 5</h5>
+        <button onclick="document.querySelector('.Hearder5').style.color = 'red'">Kleur veranderen</button>
+    </div>
+    <div>
+        <button onclick="document.body.style.backgroundColor = 'black';">Achtergrond veranderen</button>
+    </div>
+</body>
+</html>
